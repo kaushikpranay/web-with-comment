@@ -1,0 +1,144 @@
+* {
+  /*this section for whole page*/
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  /*This section for navbar class*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+.background {
+  /*this section contain background od navbar*/
+  background: black;
+  background-blend-mode: darken;
+  background-size: cover;
+}
+.nav-list {
+  /*this section contain navigation list style*/
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  /*this section contain design of the logo*/
+  width: 180px;
+  border-radius: 50px;
+}
+.nav-list li {
+  /*this section contain list style part of the navigation*/
+  list-style: none;
+  padding: 26px 30px;
+}
+.nav-list li a {
+  /*This section contain link part of the navigation*/
+  text-decoration: none;
+  color: white;
+}
+.nav-list li a:hover {
+  color: gray;
+}
+.rightnav {
+  /*This section contain right navigation (search part) style*/
+  width: 30%;
+  text-align: right;
+}
+#search {
+  /*This section contain search button style*/
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 9px;
+}
+.firstsection {
+  /*This section contain style of first section */
+  background-color: green;
+  height: 400px;
+}
+.secondsection {
+  /*This section contain style for second section*/
+  background-color: blue;
+  height: 400px;
+}
+.box-main {
+  /*This section contain style of second section paragraph*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  max-width: 80%;
+  margin: auto;
+  height: 80%;
+}
+.secondhalf {
+  /*this section area of the web technology paragrapgh*/
+  width: 30%;
+}
+.secondhalf img {
+  width: 70%;
+  border: 4px solid white;
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+}
+.text-big {
+  /*this section contain style of heading of Web Technology*/
+  font-family: "Piazzola", serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+.text-small {
+  /*This section contain style of paragraph section*/
+  font-size: 18px;
+}
+.btn {
+  /*This section contain style of search button*/
+  padding: 8px 20px;
+  margin: 7px 0;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+.btn-sm {
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+.section {
+  /*This section contain area of java section*/
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: auto;
+}
+.section-left {
+  flex-direction: row-reverse;
+}
+.paras {
+  padding: 0px 65px;
+}
+.thumbnail img {
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 26px;
+  margin-top: 19px;
+}
+.center {
+  text-align: center;
+}
+.text-footer {
+  /*This section contain footer style of the html or web page*/
+  text-align: center;
+  padding-inline-start: 30px 0px;
+  font-family: Ubuntu, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
